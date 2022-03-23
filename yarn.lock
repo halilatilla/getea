@@ -6480,7 +6480,7 @@
   "resolved" "https://registry.npmjs.org/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.27.tgz"
   "version" "0.14.27"
 
-"esbuild@^0.14.18":
+"esbuild@^0.14.18", "esbuild@^0.14.27":
   "integrity" "sha512-MZQt5SywZS3hA9fXnMhR22dv0oPGh6QtjJRIYbgL1AeqAoQZE+Qn5ppGYQAoHv/vq827flj4tIJ79Mrdiwk46Q=="
   "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.14.27.tgz"
   "version" "0.14.27"
