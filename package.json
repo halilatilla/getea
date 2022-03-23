@@ -79,7 +79,7 @@
     "url": "https://github.com/halilatilla/getea.git"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "config": {
     "commitizen": {
