@@ -20,7 +20,9 @@
     "analyze": "size-limit --why",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "semantic-release": "semantic-release --branches main"
+    "semantic-release": "semantic-release --branches main",
+    "commit": "git-cz",
+    "acp": "git add . && npm run commit && git push"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -60,15 +62,16 @@
     "@types/react": "^17.0.42",
     "@types/react-dom": "^17.0.14",
     "babel-loader": "^8.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
+    "semantic-release": "^19.0.2",
     "size-limit": "^7.0.8",
     "tsdx": "^0.14.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.6.2",
-    "semantic-release": "^19.0.2"
+    "typescript": "^4.6.2"
   },
   "repository": {
     "type": "git",
@@ -76,5 +79,10 @@
   },
   "publishConfig": {
     "access": "restricted"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
