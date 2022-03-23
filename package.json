@@ -78,9 +78,6 @@
     "type": "git",
     "url": "https://github.com/halilatilla/getea.git"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
