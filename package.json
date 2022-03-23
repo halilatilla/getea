@@ -21,8 +21,8 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "semantic-release": "semantic-release --branches main",
-    "commit": "git-cz",
-    "acp": "git add . && npm run commit && git push"
+    "acp": "git add . && npm run commit && git push",
+    "commit": "git-cz"
   },
   "peerDependencies": {
     "react": ">=16"
