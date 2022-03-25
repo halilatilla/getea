@@ -1,15 +1,53 @@
-import React, { FC, HTMLAttributes, ReactChild } from 'react';
-
-export interface Props extends HTMLAttributes<HTMLDivElement> {
-  /** custom content, defaults to 'the snozzberries taste like snozzberries' */
-  children?: ReactChild;
+import React, { FC } from 'react';
+import {
+  EmptyAvatar1,
+  EmptyAvatar2,
+  EmptyAvatar3,
+  EmptyAvatar4,
+  EmptyAvatar5,
+} from './avatars';
+export interface Props {
+  size?: number;
+  bgColor?: string;
+  border?: {
+    size?: number;
+    color?: string;
+    radius?: number;
+    style?: string;
+  };
 }
 
-// Please do not use types off of a default export module or else Storybook Docs will suffer.
-// see: https://github.com/storybookjs/storybook/issues/9556
-/**
- * A custom Thing component. Neat!
- */
-export const Thing: FC<Props> = ({ children }) => {
-  return <div>{children || `the snozzberries taste like snozzberries`}</div>;
+export const GetEmptyAvatar: FC<Props> = ({
+  size = 72,
+  bgColor = '#E5E5E5',
+  border = {
+    size: 2,
+    color: '#eeeeee',
+    radius: 50,
+    style: 'solid',
+  },
+}) => {
+  const getAvatar = [
+    EmptyAvatar1,
+    EmptyAvatar2,
+    EmptyAvatar3,
+    EmptyAvatar4,
+    EmptyAvatar5,
+  ];
+  const getRandomAvatar = () =>
+    Math.floor(Math.random() * Math.floor(getAvatar?.length)) + 1;
+
+  const Avatar = getAvatar[getRandomAvatar() - 1];
+
+  return (
+    <Avatar
+      style={{
+        width: `${size}px`,
+        height: `${size}px`,
+        color: bgColor,
+        border: `${border.size}px ${border.style} ${border.color}`,
+        borderRadius: `${border.radius}%`,
+      }}
+    />
+  );
 };

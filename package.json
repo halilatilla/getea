@@ -22,7 +22,8 @@
     "build-storybook": "build-storybook",
     "semantic-release": "semantic-release --branches main",
     "acp": "git add . && npm run commit && git push",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "svgr": "svgr --icon --typescript --title-prop --replace-attr-values '#EAEAEA=currentColor' -d src/avatars -- assets"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -59,6 +60,7 @@
     "@storybook/addon-links": "^6.4.19",
     "@storybook/addons": "^6.4.19",
     "@storybook/react": "^6.4.19",
+    "@svgr/cli": "^6.2.1",
     "@types/react": "^17.0.42",
     "@types/react-dom": "^17.0.14",
     "babel-loader": "^8.2.4",
