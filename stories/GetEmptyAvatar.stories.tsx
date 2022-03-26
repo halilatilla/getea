@@ -6,9 +6,21 @@ const meta: Meta = {
   title: 'Welcome',
   component: GetEmptyAvatar,
   argTypes: {
-    children: {
+    size: {
       control: {
-        type: 'text',
+        type: 'range',
+      },
+    },
+    bgColor: {
+      control: {
+        type: 'color',
+      },
+    },
+    border: {
+      color: {
+        control: {
+          type: 'color',
+        },
       },
     },
   },
