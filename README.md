@@ -6,7 +6,7 @@
 
 ### **If you need a random fancy avatar or some kind of icon, check this out!**
 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/27916419/160250491-58fa0182-6693-4360-ab68-b1b03928c5a4.gif)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/27916419/160250550-5c5c5e92-6326-47ff-a090-92ac9cc974a9.gif)
 
 
 <br>
