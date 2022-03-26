@@ -2,6 +2,8 @@
 [![GitHub license](https://img.shields.io/github/license/halilatilla/getea?label=license)](https://github.com/halilatilla/getea/blob/main/LICENSE)
 
 # Get Empty Avatar [Live Demo](https://623f3bfd0693ca003a65bbce-ibzuupnjss.chromatic.com/)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/27916419/160250370-f8104de7-3290-43cb-aaeb-a5e58bc81195.gif)
+
 
 ### **If you need a random fancy avatar or some kind of icon, check this out!**
 
