@@ -1,9 +1,7 @@
 ![npm](https://img.shields.io/npm/v/getea?label=npm) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/halilatilla/getea?label=code%20size)
 [![GitHub license](https://img.shields.io/github/license/halilatilla/getea?label=license)](https://github.com/halilatilla/getea/blob/main/LICENSE)
 
-<br>
-
-# Get Empty Avatar
+# Get Empty Avatar [Live Demo](https://623f3bfd0693ca003a65bbce-ibzuupnjss.chromatic.com/)
 
 ### **If you need a random fancy avatar or some kind of icon, check this out!**
 

@@ -30,7 +30,8 @@
     "semantic-release": "semantic-release --branches main",
     "acp": "git add . && npm run commit && git push",
     "commit": "git-cz",
-    "svgr": "svgr --icon --typescript --title-prop --replace-attr-values '#EAEAEA=currentColor' -d src/avatars -- assets"
+    "svgr": "svgr --icon --typescript --title-prop --replace-attr-values '#EAEAEA=currentColor' -d src/avatars -- assets",
+    "chromatic": "npx chromatic --project-token=015156c7b565"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -71,6 +72,7 @@
     "@types/react": "^17.0.42",
     "@types/react-dom": "^17.0.14",
     "babel-loader": "^8.2.4",
+    "chromatic": "^6.5.3",
     "cz-conventional-changelog": "^3.3.0",
     "esbuild": "^0.14.27",
     "husky": "^7.0.4",
