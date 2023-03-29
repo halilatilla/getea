@@ -4,84 +4,102 @@
 # Get Empty Avatar [Live Demo](https://623f3bfd0693ca003a65bbce-ibzuupnjss.chromatic.com/)
 
 
-### **If you need a random fancy avatar or some kind of icon, check this out!**
+### **Create unique, stylish avatars or icons effortlessly!**
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/27916419/160250550-5c5c5e92-6326-47ff-a090-92ac9cc974a9.gif)
 
 
 <br>
 
-## Installation
+## **📦 Installation**
 
-Install getea with npm
+Install **`getea`** using npm:
 
-```bash
-  npm install getea
-  or yarn add getea
+```
+npm install getea
 ```
 
+Alternatively, use yarn:
+
+```
+yarn add getea
+```
 <br>
 
-## Usage
+## **📚 Usage**
 
-### React
+### **React**
 
-```js
-import { GetEmptyAvatar } from 'getea';
+```
+import { GetFancyAvatar } from 'getea';
 
 function App() {
-  return <GetEmptyAvatar />;
+  return <GetFancyAvatar />;
 }
 ```
 
 <br>
 
-## Props List
+## **⚙️ Props List**
 
-| Name    | Type   | Default                                              |
-| ------- | ------ | ---------------------------------------------------- |
-| size    | number | 72                                                   |
-| bgColor | string | "#E5E5E5"                                            |
-| border  | Array  | { size: 2, color:#eeeeee, radius: 50,style:'solid' } |
+| Name | Type | Default | Description |
+| --- | --- | --- | --- |
+| size | number | 72 | Sets the size of the avatar. |
+| bgColor | string | "#E5E5E5" | Sets the background color of the avatar. |
+| border | Array | {size: 2, color: "#eeeeee", radius: 50, style: 'solid'} | Configures the border properties of the avatar. |
 
 <br>
 
-## Development
+## **🚀 Development**
 
-Pull requests are encouraged and always welcome.
-[Pick an issue](https://github.com/halilatilla/getea/issues)
-and help us out!
+We warmly welcome and appreciate pull requests. Choose an issue and help us improve!
 
-To install and work on `getea` locally:
+To install and work on **`getea`** locally, follow these steps:
 
-```bash
+1. Clone the repository:
+
+```
 git clone https://github.com/halilatilla/getea.git
+```
+
+2. Navigate to the project directory:
+
+```
 cd getea
+```
+3. Install dependencies:
+
+```
 npm install
 ```
+4. Start the development server:
 
-<br>
-
-`http://localhost:3000/`
-
-```bash
-yarn start or npm start
+```
+yarn start
+# or
+npm start
 ```
 
-<br>
+The development server can be accessed at **[http://localhost:3000/](http://localhost:3000/)**.
 
-`http://localhost:6006/`
+5. Launch Storybook:
 
-```bash
-yarn storybook or npm start storybook
+```
+yarn storybook
+# or
+npm run storybook
 ```
 
+Storybook will be available at **[http://localhost:6006/](http://localhost:6006/)**.
+
 <br>
 
-## Authors
+## **✍️ Authors**
 
-- [@halilatilla](https://www.github.com/halilatilla)
+- **[@halilatilla](https://github.com/halilatilla)**
 
-## License
+<br>
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## **📄 License**
+
+This project is licensed under the MIT License.
